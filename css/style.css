@@ -1,0 +1,23 @@
+.secondary-color {
+    background-color: #a6c !important;
+}
+
+@media (max-width:990px) {
+    .dropdown-menu-right {
+        left: 0;    
+    }
+}
+
+.dropdown-menu {
+    padding: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: #a6c !important;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+    color: white !important;
+}
+
